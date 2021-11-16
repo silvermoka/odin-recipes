@@ -27,7 +27,7 @@ a:link {
 }
 
 a:visited {
-    color: rgb(59, 57, 57)
+    color: rgb(219, 183, 183)
 }
 
 a:hover {
@@ -74,3 +74,22 @@ ul, ol {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#redsauce {
+    position: top left;
+    margin: 10px;
+}
+
+#braciole {
+    position: top center;
+    margin: 10px;
+}
+
+#garlicbread {
+    object-position: top right;
+    margin: 10px;
+}
+
+.recipe {
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
