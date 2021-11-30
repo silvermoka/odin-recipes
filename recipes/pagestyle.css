@@ -13,7 +13,7 @@ nav {
     padding: 30px;
     background-color: rgba(75, 51, 15, 0.747);
     font-size: 15px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 nav, img, h1, div {
     margin-left: 15px;
@@ -27,17 +27,22 @@ a:link {
 }
 
 a:visited {
-    color: rgb(219, 183, 183)
+    color: rgb(219, 183, 183);
 }
 
 a:hover {
-    color:dodgerblue
+    color:dodgerblue;
+    /*forgot semis up until this point and have an unknown red underline I can't fix*/
 }
 
 
 img {
     border:rgba(202, 192, 124, 0.863) solid 1px;
     padding: 0.25px;
+}
+
+.recipepic {
+    position: relative;
 }
 
 div {
@@ -52,8 +57,8 @@ h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     border: rgba(202, 192, 124, 0.918) double 3px;
-    background-color: rgba(202, 192, 124, 0.5)
-;}
+    background-color: rgba(202, 192, 124, 0.5);
+}
 
 h2 {
     color: black;
@@ -80,7 +85,7 @@ ul, ol {
 }
 
 #braciole {
-    position: top center;
+    position: relative;
     margin: 10px;
 }
 
@@ -92,4 +97,8 @@ ul, ol {
 .recipe {
     font-size: 30px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    border: red solid 5px;
 }
