@@ -32,11 +32,12 @@ a:visited {
 
 a:hover {
     color:dodgerblue;
-    /*forgot semis up until this point and have an unknown red underline I can't fix*/
+    /*forgot semis up until this point and am not a little bitch heh heh heh*/
 }
 
 
 img {
+    margin: auto;
     border:rgba(202, 192, 124, 0.863) solid 1px;
     padding: 0.25px;
 }
